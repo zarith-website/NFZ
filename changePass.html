@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="changePass.css">
+    <title>Change Password</title>
+</head>
+<body>
+    <div class="change-password-container">
+        <h2>Change Password</h2>
+        <p>For your account's security, please choose a new password.</p>
+        
+        <form id="changePasswordForm">
+            <input type="password" id="newPassword" placeholder="Enter New Password" required>
+            <div class="button-container">
+                <button type="button" id="changeButton" class="change-button">Change Password</button>
+                <a href="Account.html" class="cancel-button">Cancel</a>
+            </div>
+        </form>
+
+        <p id="message" class="message"></p>
+    </div>
+
+    <script src="changePass.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cartPage.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <header>
+        <button id="back-button" onclick="history.back()">←</button>
+        <h2 class="shopping-cart-header">Shopping Cart</h2>
+    </header>
+
+    <div class="cart-container">
+        <div class="cart-items">
+            <div class="cart-item">
+                <input type="checkbox" class="item-checkbox">
+                <div class="item-details">
+                    <img src="product-image.jpg" alt="Product" class="item-image">
+                    <div class="item-info">
+                        <h3 class="item-name">Baju Kurung Kedah</h3>
+                        <p class="item-price">RM79.00</p>
+                        <div class="quantity-controls">
+                            <button class="decrease">-</button>
+                            <input type="number" class="quantity" value="1">
+                            <button class="increase">+</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="cart-footer">
+            <label>
+                <input type="checkbox" id="select-all"> Select all
+            </label>
+            <div class="right">
+                <span class="total">Total: RM0.00</span>
+                <a href="checkoutPage.html">
+                    <button class="checkout-button">Check Out</button>
+                </a>
+            </div>
+        </div>
+    </div>    
+
+    <script src="cartPage.js"></script>
+</body>
+</html>

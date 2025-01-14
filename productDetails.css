@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #d8f3dc;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#back-button {
+    padding: 10px;
+    border: none;
+    background-color: #40916c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#icon-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#profile-icon, #cart-icon img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+#cart-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #ff6b6b;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+#product-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    flex: 2;
+    min-width: 300px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-container h1 {
+    margin-top: 0;
+    font-size: 2rem;
+    color: #333;
+}
+
+.details-container p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.details-container .price {
+    font-size: 1.5rem;
+    color: #40916c;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.details-container label {
+    display: block;
+    margin: 10px 0;
+}
+
+.details-container button {
+    padding: 10px 20px;
+    background-color: #40916c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.details-container button:hover {
+    background-color: #2d6a4f;
+}

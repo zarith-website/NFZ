@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Listing</title>
+    <link rel="stylesheet" href="productListing.css">
+</head>
+<body>
+    <header>
+        <button id="back-button">←</button>
+        <div id="search-container">
+            <input type="text" id="search-bar" placeholder="Search...">
+            <button id="search-button">🔍</button>
+        </div>
+        <img id="filter-icon" src=".filter icon.png" alt="Filter">
+        <div id="filter-section" class="hidden">
+            <label>
+                <input type="radio" name="category" value="Men"> Men
+            </label>
+            <label>
+                <input type="radio" name="category" value="Women"> Women
+            </label>
+            <button id="apply-filter">Apply</button>
+        </div>
+    </header>
+    <main id="product-list">
+        <div class="product-card" data-id="1" data-category="Women" data-location="Selangor">
+            <div class="image-container">
+                <img src=".baju kurung.jpg" alt="Baju Kurung Kedah">
+            </div>
+            <h3>Baju Kurung Kedah</h3>
+            <p>RM79.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="2" data-category="Women" data-location="Selangor">
+            <div class="image-container">
+                <img src=".baju kurung1.jpg" alt="Baju Kurung Sulam">
+            </div>
+            <h3>Baju Kurung Sulam</h3>
+            <p>RM79.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="3" data-category="Women" data-location="Selangor">
+            <div class="image-container">
+                <img src=".jubah.jpg" alt="Jubah Layer Malikha">
+            </div>
+            <h3>Jubah Layer Malikha</h3>
+            <p>RM99.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="4" data-category="Women" data-location="Selangor">
+            <div class="image-container">
+                <img src=".suit muslimah.jpg" alt="Muslimah Suit Sophie">
+            </div>
+            <h3>Muslimah Suit Sophie</h3>
+            <p>RM79.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="5" data-category="Men" data-location="Selangor">
+            <div class="image-container">
+                <img src=".baju melayu.jpg" alt="Baju Melayu Fit">
+            </div>
+            <h3>Baju Melayu Fit</h3>
+            <p>RM69.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="6" data-category="Men" data-location="Selangor">
+            <div class="image-container">
+                <img src=".baju melayu cm.jpg" alt="Baju Melayu Cekak Musang">
+            </div>
+            <h3>Baju Melayu Cekak Musang</h3>
+            <p>RM69.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="7" data-category="Men" data-location="Selangor">
+            <div class="image-container">
+                <img src=".baju melayu tb.jpg" alt="Baju Melayu Teluk Belanga">
+            </div>
+            <h3>Baju Melayu Teluk Belanga</h3>
+            <p>RM69.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+        <div class="product-card" data-id="8" data-category="Men" data-location="Selangor">
+            <div class="image-container">
+                <img src=".kurta.jpeg" alt="Como Crepe Kurta">
+            </div>
+            <h3>Como Crepe Kurta</h3>
+            <p>RM59.00</p>
+            <p>⭐⭐⭐⭐⭐ (5.0)</p>
+            <p>Selangor</p>
+        </div>
+    </main>
+    <script src="productListing.js"></script>
+</body>
+</html>

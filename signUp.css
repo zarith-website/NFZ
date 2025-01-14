@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f9f4;
+}
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.signup-logo img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+.signup-logo h2 {
+    font-size: 24px;
+    color: #007b5e;
+}
+
+.signup-box {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.signup-box h3 {
+    color: #007b5e;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.signup-btn {
+    background-color: #007b5e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.signup-btn:hover {
+    background-color: #005f47;
+}
+
+.alternate-login {
+    margin-top: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.facebook-btn, .google-btn {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.facebook-btn {
+    background-color: #3b5998;
+    color: #fff;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: #fff;
+}
+
+.facebook-btn:hover {
+    background-color: #2d4373;
+}
+
+.google-btn:hover {
+    background-color: #c33d2e;
+}
+
+.signup-box p {
+    margin-top: 20px;
+    color: #666;
+}
+
+.signup-box a {
+    color: #007b5e;
+    text-decoration: none;
+}
+
+.signup-box a:hover {
+    text-decoration: underline;
+}

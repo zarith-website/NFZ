@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="checkoutPage.css">
+    <title>Checkout Page</title>
+</head>
+<body>
+    <header>
+        <button id="back-button">←</button>
+        <h2 class="checkout-header">Checkout</h2>
+    </header>
+
+    <div class="checkout-container">
+        <div class="address-section">
+        </div>
+
+        <div id="items-container" class="cart-summary">
+        </div>
+
+        <div class="payment-method">
+            <h3>Payment Method</h3>
+            <select id="payment-method">
+                <option value="" disabled selected>Select a payment method</option>
+                <option value="Online Banking - Bank Muamalat">Online Banking - Bank Muamalat</option>
+                <option value="Credit/Debit Card">Credit/Debit Card</option>
+            </select>
+        </div>
+
+        <div class="payment-details">
+            <h3>Payment Details</h3>
+            <div class="detail-line">
+                <span>Subtotal:</span>
+                <span id="subtotal">RM0.00</span>
+            </div>
+            <div class="detail-line">
+                <span>Shipping:</span>
+                <span id="shipping">RM4.90</span>
+            </div>
+            <div class="detail-line">
+                <span>Shipping Discount:</span>
+                <span id="shipping-discount" style="color: red;">-RM4.90</span>
+            </div>
+            <div class="detail-line">
+                <span>Total:</span>
+                <span id="total">RM0.00</span>
+            </div>
+        </div>
+
+        <div class="total-payment">
+            <div class="total-info">
+                <h3>Total Payment:</h3>
+                <span id="total-payment" style="color: #45a049; font-size: 18px;">RM0.00</span>
+            </div>
+            <button id="confirm-payment">Confirm Payment</button>
+        </div>
+    </div>
+
+    <script src="checkoutPage.js"></script>
+</body>
+</html>

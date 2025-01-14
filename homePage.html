@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFZ Fashion</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src=".logo.png" alt="index.html">
+        </div>
+        <div id="search-container">
+            <form id="search-form" action="productListing.html" method="get">
+                <input type="text" id="search-bar" name="search" placeholder="Search..." required>
+                <button type="submit" id="search-button">🔍</button>
+            </form>
+        </div>
+        <div>
+            <div id="icon-container">
+                <a href="Account.html">
+                    <img id="profile-icon" src=".user account icon.png" alt="Profile">
+                </a>
+                <div id="cart-icon">
+                    <a href="cartPage.html">
+                        <img src=".add to cart icon.jpg" alt="Cart">
+                    </a>
+                    <span id="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="aboutUs.html">About Us</a></li>
+            <li><a href="contactPage.html">Contact Us</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-image">
+        <div class="hero-text">
+            <h2>"Where Modesty Meets Fashion"</h2>
+            <p>NFZ Fashion offers clothing that prioritizes covering your aurah with elegance and comfort. We provide a selection that respects Islamic teachings while maintaining contemporary fashion trends.</p>
+        </div>
+    </section>
+
+    <main class="main-content">
+        <div>
+            <section class="new-drops">
+                <a href="productListing.html"><h2>New Drops</h2></a>
+                <div class="products">
+                    <div class="product">
+                        <a href="productDetails.html?id=2">
+                            <img src=".baju kurung1.jpg" alt="Best Selling">
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="productDetails.html?id=5">
+                            <img src=".baju melayu tb.jpg" alt="New Arrival">
+                        </a>
+                    </div>
+                    <div class="product">
+                        <a href="productDetails.html?id=3">
+                            <img src=".jubah.jpg" alt="Best Selling">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 NFZ Fashion. All Rights Reserved.</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>

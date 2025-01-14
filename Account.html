@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Page</title>
+    <link rel="stylesheet" href="Account.css">
+</head>
+<body>
+    <div class="account-container">
+        <div class="sidebar">
+            <button id="back-button" onclick="history.back()">←</button>
+            <p></p>
+            <h3 id="user-greeting">Hi User,</h3>
+            <ul class="menu">
+                <li>Manage Account</li>
+                <ul>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Address</a></li>
+                    <li><a href="#">Purchase History</a></li>
+                    <li><a href="#">My Card</a></li>
+                </ul>
+                <li>My Items</li>
+                <ul>
+                    <li><a href="#">Lists</a></li>
+                    <li><a href="#">Favourite</a></li>
+                    <li><a href="cartPage.html">Cart</a></li>
+                </ul>
+            </ul>
+            <a class="sign-out" href="login.html">Log Out</a>
+        </div>
+        <div class="profile-section">
+            <div class="profile-header">
+                <img src=".user account icon.png" alt="Profile Photo">
+                <p></p>
+                <button id="change-photo-btn">Change Photo</button>
+            </div>
+            <div class="profile-content">
+                <div class="personal-info">
+                    <h4>Personal Information</h4>
+                    <form id="personal-info-form">
+                        <input id="name" type="text" placeholder="Name">
+                        <input id="contact-number" type="text" placeholder="Contact Number">
+                        <input id="email" type="email" placeholder="Email">
+                        <input id="address" type="text" placeholder="Enter Address">
+                        <button type="submit">Save Changes</button>
+                    </form>
+                    <p></p>
+                    <a id="delete-account" href="deleteAccount.html">Delete Your Account</a>
+                </div>
+                <div class="change-password">
+                    <h4>Change Password</h4>
+                    <form id="change-password-form">
+                        <input id="current-password" type="password" placeholder="Current Password">
+                        <input id="new-password" type="password" placeholder="New Password">
+                        <input id="confirm-password" type="password" placeholder="Confirm Password">
+                        <button type="submit" class="green-text">Change Password</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <a href="aboutUs.html">About Us</a>
+        <a href="contactPage.html">Contact Us</a>
+        <a href="FAQ.html">FAQ</a>
+    </footer>
+    <script src="Account.js"></script>
+</body>
+</html>
